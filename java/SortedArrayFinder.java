@@ -1,4 +1,9 @@
 public class SortedArrayFinder{
+	/*
+	The paramater named 'mode' is used to determine the direction of the sort;
+	Asc = true
+	Desc = false
+	*/
 	public int find(int[] arr, int f, boolean mode){
 		if(mode){
 			return findAsc(arr,f);
